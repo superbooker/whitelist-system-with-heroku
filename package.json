@@ -1,0 +1,10 @@
+{
+  "homepage": "https://superbooker.github.io/whitelist-system-with-heroku/",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "scripts":{
+    "predeploy": "npm run build", "deploy": "gh-pages -d build"
+  }
+  
+}
